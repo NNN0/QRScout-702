@@ -1,6 +1,6 @@
 {
     "title": "QRScout",
-    "page_title": "Rebuilt V0.4",
+    "page_title": "Rebuilt V0.4.2",
     "delimiter": "\t",
     "teamNumber": 702,
     "floatingField": {
@@ -132,9 +132,9 @@
                     "defaultValue": "No",
                     "choices": {
                         "No": "No Climb",
-                        "Out": "Outpost Side",
-                        "Mid": "Middle",
-                        "Dep": "Depot Side"
+                        "Ou": "Outpost Side",
+                        "Mi": "Middle",
+                        "De": "Depot Side"
                     }
                 }
             ]
@@ -217,9 +217,9 @@
                     "defaultValue": "No",
                     "choices": {
                         "No": "No Climb",
-                        "Out": "Output Side",
-                        "Mid": "Middle",
-                        "Dep": "Depot Side"
+                        "Ou": "Output Side",
+                        "Mi": "Middle",
+                        "De": "Depot Side"
                     }
                 },
                 {
@@ -271,10 +271,10 @@
                     "formResetBehavior": "reset",
                     "defaultValue": "",
                     "choices": {
-                        "driving": "While driving",
-                        "stationary": "While stationary",
-                        "both": "Both",
-                        "none": "No scoring"
+                        "Dr": "While driving",
+                        "St": "While stationary",
+                        "Bo": "Both",
+                        "No": "No scoring"
                     }
                 },
                 {
@@ -298,10 +298,10 @@
                     "formResetBehavior": "reset",
                     "defaultValue": "",
                     "choices": {
-                        "driving": "While driving",
-                        "stationary": "While stationary",
-                        "both": "Both",
-                        "none": "No Passing"
+                        "Dr": "While driving",
+                        "St": "While stationary",
+                        "Bo": "Both",
+                        "No": "No Passing"
                     }
                 },
                 {
@@ -313,10 +313,10 @@
                     "formResetBehavior": "reset",
                     "defaultValue": "",
                     "choices": {
-                        "scattered": "Scattered",
-                        "intentional": "Intentional",
-                        "both": "Both",
-                        "none": "No passing"
+                        "Sc": "Scattered",
+                        "In": "Intentional",
+                        "Bo": "Both",
+                        "No": "No passing"
                     }
                 },
                 {
@@ -328,7 +328,7 @@
                     "formResetBehavior": "reset",
                     "defaultValue": "n/a",
                     "choices": {
-                        "n/a": "Not Observed",
+                        "N/A": "Not Observed",
                         "0": "0",
                         "1": "1",
                         "2": "2",
@@ -345,7 +345,7 @@
                     "formResetBehavior": "reset",
                     "defaultValue": "Nc",
                     "choices": {
-                        "Nc": "No Card",
+                        "NC": "No Card",
                         "Y": "Yellow Card",
                         "R": "Red Card"
                     }
