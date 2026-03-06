@@ -1,6 +1,6 @@
 {
     "title": "QRScout",
-    "page_title": "Rebuilt V0.1",
+    "page_title": "Rebuilt V0.2",
     "delimiter": "\t",
     "teamNumber": 702,
     "floatingField": {
@@ -150,19 +150,17 @@
                     "code": "teleopActions",
                     "formResetBehavior": "reset",
                     "defaultValue": null,
-                    "mode": "hold",
+                    "mode": "tap",
                     "timerDuration": 158,
                     "actions": [
                         { "label": "Scoring", "code": "scoring" },
-                        { "label": "Depot Collect", "code": "depot_collect" },
+                        { "label": "Collecting", "code": "collect" },
+                        { "label": "Passing", "code": "passing" },
                         { "label": "Outpost Collect", "code": "outpost_collect" },
-                        { "label": "Ground Collect", "code": "ground_collect" },
                         { "label": "Bump", "code": "bump" },
                         { "label": "Trench", "code": "trench" },
-                        { "label": "Passing", "code": "passing" },
-                        { "label": "Faffing/Stuck on Fuel", "code": "faffing" },
                         { "label": "Neutral Zone Defense", "code": "neudefense" },
-                        { "label": "Opponent Zone Defense", "code": "oppdefense" }                       
+                        { "label": "Opponent Zone Defense", "code": "oppdefense" }
                     ]
                 }
             ]
@@ -222,6 +220,29 @@
                         "Out": "Output Side",
                         "Mid": "Middle",
                         "Dep": "Depot Side"
+                    }
+                }
+                {
+                    "title": "Was defended against?",
+                    "description": "Was the robot defended against by an opponent?",
+                    "type": "boolean",
+                    "required": false,
+                    "code": "oppdefending",
+                    "formResetBehavior": "reset",
+                    "defaultValue": false
+                }
+                {
+                    "title": "Time Incap",
+                    "description": "How long was the robot unable to contribute to winning the match due to issues?",
+                    "type": "select",
+                    "required": false,
+                    "code": "incapTime",
+                    "formResetBehavior": "reset",
+                    "defaultValue": "0",
+                    "choices": {
+                        "0": "<15 Sec",
+                        "20": "15-30 Sec",
+                        "45": ">30 Sec"
                     }
                 }
             ]
