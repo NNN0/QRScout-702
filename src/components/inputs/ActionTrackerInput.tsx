@@ -11,7 +11,7 @@ import { ConfigurableInputProps } from './ConfigurableInput';
 const LazyDynamicIcon = lazy(() => import('./DynamicIcon'));
 
 // Touch gesture constants (based on React Native / @use-gesture standards)
-const HOLD_INTENT_DELAY_MS = 200; // Time before hold is considered intentional
+const HOLD_INTENT_DELAY_MS = 20; // Time before hold is considered intentional
 const MOVEMENT_THRESHOLD_PX = 10; // Movement that cancels a pending press (scroll detection)
 
 function DynamicIcon({ name, className }: { name: string; className?: string }) {
