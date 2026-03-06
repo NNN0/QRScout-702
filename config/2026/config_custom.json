@@ -1,6 +1,6 @@
 {
     "title": "QRScout",
-    "page_title": "Rebuilt V0.3",
+    "page_title": "Rebuilt V0.4",
     "delimiter": "\t",
     "teamNumber": 702,
     "floatingField": {
@@ -75,15 +75,6 @@
                     "defaultValue": ""
                 },
                 {
-                    "title": "Match Number",
-                    "description": "Select the match number.",
-                    "type": "TBA-match-number",
-                    "required": true,
-                    "code": "matchNumber",
-                    "formResetBehavior": "increment",
-                    "defaultValue": 1
-                },
-                {
                     "title": "Team and Robot",
                     "description": "Select the team and robot position you are scouting.",
                     "type": "TBA-team-and-robot",
@@ -91,6 +82,15 @@
                     "code": "robot",
                     "formResetBehavior": "preserve",
                     "defaultValue": null
+                },
+                {
+                    "title": "Match Number",
+                    "description": "Select the match number.",
+                    "type": "TBA-match-number",
+                    "required": true,
+                    "code": "matchNumber",
+                    "formResetBehavior": "increment",
+                    "defaultValue": 1
                 },
                 {
                     "title": "Starting Position",
