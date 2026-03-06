@@ -221,7 +221,7 @@
                         "Mid": "Middle",
                         "Dep": "Depot Side"
                     }
-                }
+                },
                 {
                     "title": "Was defended against?",
                     "description": "Was the robot defended against by an opponent?",
@@ -230,7 +230,7 @@
                     "code": "oppdefending",
                     "formResetBehavior": "reset",
                     "defaultValue": false
-                }
+                },
                 {
                     "title": "Time Incap",
                     "description": "How long was the robot unable to contribute to winning the match due to issues?",
