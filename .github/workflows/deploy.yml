@@ -21,7 +21,6 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  VITE_STATSIG_CLIENT_KEY: client-FccOCTznRdYyGr7cx3vJoyoWyO1BTqBzv6S2g1lYPvB
   VITE_TBA_API_KEY: ${{ secrets.TBA_API_KEY }}
 
 jobs:

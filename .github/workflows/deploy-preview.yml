@@ -4,8 +4,7 @@ on:
   pull_request:
     types: [opened, reopened, synchronize]
 
-env:
-  VITE_STATSIG_CLIENT_KEY: client-FccOCTznRdYyGr7cx3vJoyoWyO1BTqBzv6S2g1lYPvB
+# env:
 
 concurrency: preview-${{ github.ref }}
 
