@@ -1,6 +1,6 @@
 {
     "title": "QRScout",
-    "page_title": "Rebuilt V0.2",
+    "page_title": "Rebuilt V0.3",
     "delimiter": "\t",
     "teamNumber": 702,
     "floatingField": {
@@ -150,7 +150,7 @@
                     "code": "teleopActions",
                     "formResetBehavior": "reset",
                     "defaultValue": null,
-                    "mode": "tap",
+                    "mode": "hold",
                     "timerDuration": 158,
                     "actions": [
                         { "label": "Scoring", "code": "scoring" },
