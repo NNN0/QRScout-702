@@ -1,1 +1,1 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/QRScout/sw.js', { scope: '/QRScout/' })})}
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/QRScout-702/sw.js', { scope: '/QRScout-702/' })})}
